@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/lhy/Projects/mymuduo/Logger.cc
+iostream
+-
+Logger.h
+/home/lhy/Projects/mymuduo/Logger.h
+Timestamp.h
+/home/lhy/Projects/mymuduo/Timestamp.h
+
+/home/lhy/Projects/mymuduo/Logger.h
+string
+-
+noncopyable.h
+/home/lhy/Projects/mymuduo/noncopyable.h
+
+/home/lhy/Projects/mymuduo/Timestamp.cc
+Timestamp.h
+/home/lhy/Projects/mymuduo/Timestamp.h
+time.h
+-
+
+/home/lhy/Projects/mymuduo/Timestamp.h
+iostream
+-
+string
+-
+
+/home/lhy/Projects/mymuduo/noncopyable.h
+
