@@ -1,8 +1,43 @@
 [
 {
   "directory": "/home/lhy/Projects/mymuduo/build",
+  "command": "/usr/bin/g++  -Dmymuduo_EXPORTS   -g -std=c++11 -fPIC -g -fPIC   -o CMakeFiles/mymuduo.dir/Channel.o -c /home/lhy/Projects/mymuduo/Channel.cc",
+  "file": "/home/lhy/Projects/mymuduo/Channel.cc"
+},
+{
+  "directory": "/home/lhy/Projects/mymuduo/build",
+  "command": "/usr/bin/g++  -Dmymuduo_EXPORTS   -g -std=c++11 -fPIC -g -fPIC   -o CMakeFiles/mymuduo.dir/DefaulePoller.o -c /home/lhy/Projects/mymuduo/DefaulePoller.cc",
+  "file": "/home/lhy/Projects/mymuduo/DefaulePoller.cc"
+},
+{
+  "directory": "/home/lhy/Projects/mymuduo/build",
+  "command": "/usr/bin/g++  -Dmymuduo_EXPORTS   -g -std=c++11 -fPIC -g -fPIC   -o CMakeFiles/mymuduo.dir/EpollPoller.o -c /home/lhy/Projects/mymuduo/EpollPoller.cc",
+  "file": "/home/lhy/Projects/mymuduo/EpollPoller.cc"
+},
+{
+  "directory": "/home/lhy/Projects/mymuduo/build",
+  "command": "/usr/bin/g++  -Dmymuduo_EXPORTS   -g -std=c++11 -fPIC -g -fPIC   -o CMakeFiles/mymuduo.dir/EventLoop.o -c /home/lhy/Projects/mymuduo/EventLoop.cc",
+  "file": "/home/lhy/Projects/mymuduo/EventLoop.cc"
+},
+{
+  "directory": "/home/lhy/Projects/mymuduo/build",
+  "command": "/usr/bin/g++  -Dmymuduo_EXPORTS   -g -std=c++11 -fPIC -g -fPIC   -o CMakeFiles/mymuduo.dir/InetAddress.o -c /home/lhy/Projects/mymuduo/InetAddress.cc",
+  "file": "/home/lhy/Projects/mymuduo/InetAddress.cc"
+},
+{
+  "directory": "/home/lhy/Projects/mymuduo/build",
   "command": "/usr/bin/g++  -Dmymuduo_EXPORTS   -g -std=c++11 -fPIC -g -fPIC   -o CMakeFiles/mymuduo.dir/Logger.o -c /home/lhy/Projects/mymuduo/Logger.cc",
   "file": "/home/lhy/Projects/mymuduo/Logger.cc"
+},
+{
+  "directory": "/home/lhy/Projects/mymuduo/build",
+  "command": "/usr/bin/g++  -Dmymuduo_EXPORTS   -g -std=c++11 -fPIC -g -fPIC   -o CMakeFiles/mymuduo.dir/Poller.o -c /home/lhy/Projects/mymuduo/Poller.cc",
+  "file": "/home/lhy/Projects/mymuduo/Poller.cc"
+},
+{
+  "directory": "/home/lhy/Projects/mymuduo/build",
+  "command": "/usr/bin/g++  -Dmymuduo_EXPORTS   -g -std=c++11 -fPIC -g -fPIC   -o CMakeFiles/mymuduo.dir/TcpServer.o -c /home/lhy/Projects/mymuduo/TcpServer.cc",
+  "file": "/home/lhy/Projects/mymuduo/TcpServer.cc"
 },
 {
   "directory": "/home/lhy/Projects/mymuduo/build",

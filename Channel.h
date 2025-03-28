@@ -20,13 +20,13 @@ class Channel : noncopyable
 {
 public:
     using EventCallback = std::function<void()>;
-    using ReadEventCallback = std::function<void(TimeStamp)>;
+    using ReadEventCallback = std::function<void(Timestamp)>;
 
     Channel(EventLoop *loop, int fd);
     ~Channel();
 
     // fd得到poller通知以后，调用相应回调方法来处理事件
-    void handleEvent(TimeStamp receiveTime);
+    void handleEvent(Timestamp receiveTime);
 
     // 设置回调函数对象
     void setReadCallback(ReadEventCallback cb){ readCallback_ = std::move(cb); }
@@ -39,7 +39,7 @@ public:
 
     int fd() const { return fd_; }
     int events() const { return events_; }
-    int set_revents(int revt) { revents_ = revt; }
+    void set_revents(int revt) { revents_ = revt; } 
 
     // 设置fd相应的事件状态，置位
     void enableReading() { events_ |= kReadEvent; update(); } 

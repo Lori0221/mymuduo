@@ -17,7 +17,7 @@
         logger.log(buf); \
     }while(0)
 
-#define LOF_ERROR(logmsgFormat, ...) \
+#define LOG_ERROR(logmsgFormat, ...) \
     do{ \
         Logger &logger = Logger::instance(); \
         logger.setLogLevel(ERROR); \
