@@ -3,7 +3,7 @@
 
 #include <functional>
 
-EventLoop *CheckLoopNotNull(EventLoop* loop)
+EventLoop* CheckLoopNotNull(EventLoop* loop)
 {
     if(loop == nullptr)
     {
@@ -15,7 +15,7 @@ EventLoop *CheckLoopNotNull(EventLoop* loop)
 TcpServer::TcpServer(EventLoop *loop,
     const InetAddress &listenAddr,
     const std::string &nameArg,
-    Option option = kNoReusePort)
+    Option option)
     : loop_(CheckLoopNotNull(loop))
     , ipPort_(listenAddr.toIpPort())
     , name_(nameArg)
@@ -31,6 +31,36 @@ TcpServer::TcpServer(EventLoop *loop,
 }
 
 TcpServer::~TcpServer()
+{
+}
+
+// 设置底层subloop的个数
+void TcpServer::setThreadNum(int numThreads)
+{
+    threadPool_->setThreadNum(numThreads);
+}
+    
+// 开启服务器监听
+void TcpServer::start()
+{
+    if(started_++ == 0) // 防止一个TcpSever对象被start多次
+    {
+        threadPool_->start(threadInitCallback_);
+        loop_->runInLoop(std::bind(&Acceptor::listen, acceptor_.get()));
+    }
+}
+
+void TcpServer::newConnection(int sockfd, const InetAddress &peerAddr)
+{
+
+}
+
+void TcpServer::removeConnection(const TcpConnectionPtr &conn)
+{
+
+}
+
+void TcpServer::removeConnectionInLoop(const TcpConnectionPtr &conn)
 {
 
 }

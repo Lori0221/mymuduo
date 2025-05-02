@@ -6,21 +6,23 @@
 
 #IncludeRegexTransform: 
 
-/home/lhy/Projects/mymuduo/InetAddress.cc
-InetAddress.h
-/home/lhy/Projects/mymuduo/InetAddress.h
-strings.h
+/home/lhy/Projects/mymuduo/Buffer.cc
+Buffer.h
+/home/lhy/Projects/mymuduo/Buffer.h
+sys/uio.h
 -
-string.h
--
-iostream
+errno.h
 -
 
-/home/lhy/Projects/mymuduo/InetAddress.h
-arpa/inet.h
--
-netinet/in.h
+/home/lhy/Projects/mymuduo/Buffer.h
+noncopyable.h
+/home/lhy/Projects/mymuduo/noncopyable.h
+vector
 -
 string
 -
+algorithm
+-
+
+/home/lhy/Projects/mymuduo/noncopyable.h
 
