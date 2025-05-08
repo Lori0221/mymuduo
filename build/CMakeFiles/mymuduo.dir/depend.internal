@@ -83,7 +83,18 @@ CMakeFiles/mymuduo.dir/Socket.o
  /home/lhy/Projects/mymuduo/Socket.h
  /home/lhy/Projects/mymuduo/noncopyable.h
 CMakeFiles/mymuduo.dir/TcpConnection.o
+ /home/lhy/Projects/mymuduo/Buffer.h
+ /home/lhy/Projects/mymuduo/Callbacks.h
+ /home/lhy/Projects/mymuduo/Channel.h
+ /home/lhy/Projects/mymuduo/CurrentThread.h
+ /home/lhy/Projects/mymuduo/EventLoop.h
+ /home/lhy/Projects/mymuduo/InetAddress.h
+ /home/lhy/Projects/mymuduo/Logger.h
+ /home/lhy/Projects/mymuduo/Socket.h
  /home/lhy/Projects/mymuduo/TcpConnection.cc
+ /home/lhy/Projects/mymuduo/TcpConnection.h
+ /home/lhy/Projects/mymuduo/Timestamp.h
+ /home/lhy/Projects/mymuduo/noncopyable.h
 CMakeFiles/mymuduo.dir/TcpServer.o
  /home/lhy/Projects/mymuduo/Acceptor.h
  /home/lhy/Projects/mymuduo/Callbacks.h
