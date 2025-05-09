@@ -96,22 +96,6 @@ noncopyable.h
 noncopyable.h
 /home/lhy/Projects/mymuduo/noncopyable.h
 
-/home/lhy/Projects/mymuduo/TcpConnection.cc
-TcpConnection.h
-/home/lhy/Projects/mymuduo/TcpConnection.h
-Logger.h
-/home/lhy/Projects/mymuduo/Logger.h
-Socket.h
-/home/lhy/Projects/mymuduo/Socket.h
-Channel.h
-/home/lhy/Projects/mymuduo/Channel.h
-EventLoop.h
-/home/lhy/Projects/mymuduo/EventLoop.h
-functional
--
-errno.h
--
-
 /home/lhy/Projects/mymuduo/TcpConnection.h
 noncopyable.h
 /home/lhy/Projects/mymuduo/noncopyable.h
@@ -135,6 +119,10 @@ TcpServer.h
 /home/lhy/Projects/mymuduo/TcpServer.h
 Logger.h
 /home/lhy/Projects/mymuduo/Logger.h
+TcpConnection.h
+/home/lhy/Projects/mymuduo/TcpConnection.h
+strings.h
+-
 functional
 -
 
