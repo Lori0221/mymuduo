@@ -252,7 +252,7 @@ void TcpConnection::shutdown()
 
 void TcpConnection::shutdownInLoop()
 {
-    if(channel_->isWriting())    // 说明当前outputBuffer中的数据已经全发送完
+    if(!channel_->isWriting())    // 说明当前outputBuffer中的数据已经全发送完
     {
         socket_->shutdownWrite(); // 关闭写端
     }
